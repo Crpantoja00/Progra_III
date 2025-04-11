@@ -116,89 +116,89 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named biblioteca_exe
+# Target rules for targets named biblioteca
 
 # Build rule for target.
-biblioteca_exe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 biblioteca_exe
-.PHONY : biblioteca_exe
+biblioteca: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 biblioteca
+.PHONY : biblioteca
 
 # fast build rule for target.
-biblioteca_exe/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/build
-.PHONY : biblioteca_exe/fast
+biblioteca/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/build
+.PHONY : biblioteca/fast
 
-biblioteca.obj: biblioteca.cpp.obj
-.PHONY : biblioteca.obj
-
-# target to build an object file
-biblioteca.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/biblioteca.cpp.obj
-.PHONY : biblioteca.cpp.obj
-
-biblioteca.i: biblioteca.cpp.i
-.PHONY : biblioteca.i
-
-# target to preprocess a source file
-biblioteca.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/biblioteca.cpp.i
-.PHONY : biblioteca.cpp.i
-
-biblioteca.s: biblioteca.cpp.s
-.PHONY : biblioteca.s
-
-# target to generate assembly for a file
-biblioteca.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/biblioteca.cpp.s
-.PHONY : biblioteca.cpp.s
-
-libro.obj: libro.cpp.obj
-.PHONY : libro.obj
+src/biblioteca.obj: src/biblioteca.cpp.obj
+.PHONY : src/biblioteca.obj
 
 # target to build an object file
-libro.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/libro.cpp.obj
-.PHONY : libro.cpp.obj
+src/biblioteca.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/biblioteca.cpp.obj
+.PHONY : src/biblioteca.cpp.obj
 
-libro.i: libro.cpp.i
-.PHONY : libro.i
+src/biblioteca.i: src/biblioteca.cpp.i
+.PHONY : src/biblioteca.i
 
 # target to preprocess a source file
-libro.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/libro.cpp.i
-.PHONY : libro.cpp.i
+src/biblioteca.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/biblioteca.cpp.i
+.PHONY : src/biblioteca.cpp.i
 
-libro.s: libro.cpp.s
-.PHONY : libro.s
+src/biblioteca.s: src/biblioteca.cpp.s
+.PHONY : src/biblioteca.s
 
 # target to generate assembly for a file
-libro.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/libro.cpp.s
-.PHONY : libro.cpp.s
+src/biblioteca.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/biblioteca.cpp.s
+.PHONY : src/biblioteca.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/libro.obj: src/libro.cpp.obj
+.PHONY : src/libro.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/libro.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/libro.cpp.obj
+.PHONY : src/libro.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/libro.i: src/libro.cpp.i
+.PHONY : src/libro.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/libro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/libro.cpp.i
+.PHONY : src/libro.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/libro.s: src/libro.cpp.s
+.PHONY : src/libro.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca_exe.dir\build.make CMakeFiles/biblioteca_exe.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/libro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/libro.cpp.s
+.PHONY : src/libro.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\biblioteca.dir\build.make CMakeFiles/biblioteca.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -208,16 +208,16 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... biblioteca_exe
-	@echo ... biblioteca.obj
-	@echo ... biblioteca.i
-	@echo ... biblioteca.s
-	@echo ... libro.obj
-	@echo ... libro.i
-	@echo ... libro.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... biblioteca
+	@echo ... src/biblioteca.obj
+	@echo ... src/biblioteca.i
+	@echo ... src/biblioteca.s
+	@echo ... src/libro.obj
+	@echo ... src/libro.i
+	@echo ... src/libro.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

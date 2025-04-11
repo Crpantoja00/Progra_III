@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\biblioteca_exe.dir/objects.a
-C:\Users\CPant\mingw64\bin\ar.exe qc CMakeFiles\biblioteca_exe.dir/objects.a @CMakeFiles\biblioteca_exe.dir\objects1.rsp
-C:\Users\CPant\mingw64\bin\c++.exe -mconsole -Wl,--whole-archive CMakeFiles\biblioteca_exe.dir/objects.a -Wl,--no-whole-archive -o biblioteca_exe.exe -Wl,--out-implib,libbiblioteca_exe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\biblioteca_exe.dir\linkLibs.rsp

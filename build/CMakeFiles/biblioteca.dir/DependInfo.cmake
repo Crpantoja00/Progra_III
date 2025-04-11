@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/CPant/Documents/Cursos_2025-1/programacion3/S1C1/Biblioteca/biblioteca.cpp" "CMakeFiles/biblioteca_exe.dir/biblioteca.cpp.obj" "gcc" "CMakeFiles/biblioteca_exe.dir/biblioteca.cpp.obj.d"
-  "C:/Users/CPant/Documents/Cursos_2025-1/programacion3/S1C1/Biblioteca/libro.cpp" "CMakeFiles/biblioteca_exe.dir/libro.cpp.obj" "gcc" "CMakeFiles/biblioteca_exe.dir/libro.cpp.obj.d"
-  "C:/Users/CPant/Documents/Cursos_2025-1/programacion3/S1C1/Biblioteca/main.cpp" "CMakeFiles/biblioteca_exe.dir/main.cpp.obj" "gcc" "CMakeFiles/biblioteca_exe.dir/main.cpp.obj.d"
+  "C:/Users/CPant/Documents/Cursos_2025-1/programacion3/S1C1/Biblioteca/src/biblioteca.cpp" "CMakeFiles/biblioteca.dir/src/biblioteca.cpp.obj" "gcc" "CMakeFiles/biblioteca.dir/src/biblioteca.cpp.obj.d"
+  "C:/Users/CPant/Documents/Cursos_2025-1/programacion3/S1C1/Biblioteca/src/libro.cpp" "CMakeFiles/biblioteca.dir/src/libro.cpp.obj" "gcc" "CMakeFiles/biblioteca.dir/src/libro.cpp.obj.d"
+  "C:/Users/CPant/Documents/Cursos_2025-1/programacion3/S1C1/Biblioteca/src/main.cpp" "CMakeFiles/biblioteca.dir/src/main.cpp.obj" "gcc" "CMakeFiles/biblioteca.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

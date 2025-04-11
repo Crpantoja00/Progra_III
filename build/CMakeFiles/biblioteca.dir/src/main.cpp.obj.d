@@ -1,5 +1,5 @@
-CMakeFiles/biblioteca_exe.dir/main.cpp.obj: \
- C:\Users\CPant\Documents\Cursos_2025-1\programacion3\S1C1\Biblioteca\main.cpp \
+CMakeFiles/biblioteca.dir/src/main.cpp.obj: \
+ C:\Users\CPant\Documents\Cursos_2025-1\programacion3\S1C1\Biblioteca\src\main.cpp \
  C:/Users/CPant/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cassert \
  C:/Users/CPant/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/CPant/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
